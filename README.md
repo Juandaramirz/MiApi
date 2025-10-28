@@ -1,4 +1,4 @@
-# API RESTful con Express.js - Guía de Usuario y Despliegue
+# API RESTful - Guía de Usuario y Despliegue
 
 ## Descripción
 Esta API RESTful implementa gestión básica de usuarios con autentificación básica, organizada según el patrón MVC.
