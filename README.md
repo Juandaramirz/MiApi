@@ -13,10 +13,10 @@ Clonar el repositorio
 Instalar dependencias
 npm install
 
-text
-
 ## Ejecución
 npm start
+
+Servidor correrá en http://localhost:3000
 
 ## Endpoints
 | Método | Ruta           | Descripción              | Autenticación |
@@ -40,11 +40,21 @@ npm start
   - ESLint para análisis
   - Ejecución de pruebas con Mocha
 
+
 ### Patrón MVC
 La aplicación se organiza en Modelos (manejo de datos), Controladores (lógica y rutas) y Rutas (definición de endpoints). Esto facilita organización y mantenibilidad.
 
+### Diagrama arquitectónico (simplificado en texto)
+text
++-------------+      +----------------+      +------------+
+|   Rutas     | ---> | Controladores  | ---> |   Modelos  |
++-------------+      +----------------+      +------------+
+text
+
 ### Flujo pipeline CI
-Push a main - GitHub Actions - Checkout - npm install - eslint - mocha tests - Resultado
+[Push a main] --> [GitHub Actions] --> [Checkout] --> [npm install] --> [eslint] --> [mocha tests] --> [Resultado]
+
+text
 
 ## Pruebas
 - Ejemplo de prueba para GET /api/users incluido
