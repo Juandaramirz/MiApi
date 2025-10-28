@@ -44,17 +44,22 @@ Servidor correrá en http://localhost:3000
 ### Patrón MVC
 La aplicación se organiza en Modelos (manejo de datos), Controladores (lógica y rutas) y Rutas (definición de endpoints). Esto facilita organización y mantenibilidad.
 
-### Diagrama arquitectónico (simplificado en texto)
-text
-+-------------+      +----------------+      +------------+
-|   Rutas     | ---> | Controladores  | ---> |   Modelos  |
-+-------------+      +----------------+      +------------+
-text
+### Diagrama arquitectónico 
+
+Diagrama de arquitectura MVC para API RESTful (Express.js)
+Este diagrama muestra cómo interactúan las partes principales de la arquitectura MVC en tu proyecto:
+
+Rutas : Reciben la petición HTTP del cliente.
+
+Controladores: Manejan la lógica de negocio y procesan la solicitud.
+
+Modelos : Gestionan los datos.
+
+Respuesta: El controlador envía la respuesta al cliente.
 
 ### Flujo pipeline CI
 [Push a main] --> [GitHub Actions] --> [Checkout] --> [npm install] --> [eslint] --> [mocha tests] --> [Resultado]
 
-text
 
 ## Pruebas
 - Ejemplo de prueba para GET /api/users incluido
