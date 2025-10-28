@@ -9,7 +9,6 @@ Esta API RESTful implementa gestión básica de usuarios con autentificación b�
 - Git
 
 ## Instalación
-## Instalación
 Clonar el repositorio
 Instalar dependencias
 npm install
@@ -40,8 +39,6 @@ npm start
   - Instalación dependencias
   - ESLint para análisis
   - Ejecución de pruebas con Mocha
-
-## Arquitectura
 
 ### Patrón MVC
 La aplicación se organiza en Modelos (manejo de datos), Controladores (lógica y rutas) y Rutas (definición de endpoints). Esto facilita organización y mantenibilidad.
